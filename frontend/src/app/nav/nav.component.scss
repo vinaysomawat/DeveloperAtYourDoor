@@ -1,0 +1,36 @@
+header {
+  background: #7700FF;
+
+  .logo {
+      font-weight: bold;
+  }
+
+  .button {
+    background-color: #f44336;
+    border-radius: 15px;
+  }
+
+  nav {
+      justify-self: right;
+
+      ul {
+          list-style-type: none;
+          margin: 0; padding: 0;
+
+          li {
+              float: left;
+
+              a {
+                  padding: 1.0em;
+                  text-transform: uppercase;
+                  font-size: .8em;
+
+                  &:hover {
+                      background: #8E2BFF;
+                  }
+
+              }
+          }
+      }
+  }
+}

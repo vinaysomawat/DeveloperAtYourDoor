@@ -1,0 +1,44 @@
+<h1>Add Developer</h1>
+
+<form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+
+  <h5 *ngIf="success">Your form is valid!</h5>
+
+  <label>
+    Name:
+    <input type="text" formControlName="name">
+  </label>
+
+  <div class="form-group">
+    <label>Technical Skill: </label>
+    <select class="form-control" formControlName="techskills">
+        <option>Angular</option>
+        <option>Spring</option>
+        <option>Nodejs</option>
+        <option>Django</option>
+        <option>UI/UX Desinger</option>
+        <option>Android</option>
+    </select>
+</div>
+
+  <div class="form-group">
+    <label>Experience: </label>
+    <select class="form-control" formControlName="experience">
+        <option>0 to 2 Years</option>
+        <option>3 to 5 Years</option>
+        <option>5 to 10 Years</option>
+        <option>10+ Years</option>
+    </select>
+</div>
+
+<label>
+  Current City:
+  <input type="text" formControlName="city">
+</label>
+
+  <input type="submit" value="Submit" class="cta">
+
+</form>
+
+
+

@@ -6,8 +6,8 @@ Angular and Spring-boot project helps to find developers at reasonable cost.
 ### Clone the repo
 
 ```shell
-git clone https://github.com/bryanforbes/intern-angular
-cd intern-angular
+git clone https://github.com/vinaysomawat/DeveloperAtYourDoor
+cd DeveloperAtYourDoor/frontend
 ```
 
 ### Install npm packages
@@ -19,7 +19,7 @@ npm install
 npm start
 ```
 
-The `npm start` command builds (compiles TypeScript and copies assets) the application into `dist/`, watches for changes to the source files, and runs `lite-server` on port `3000`.
+The `npm start` command builds (compiles TypeScript and copies assets) the application into `dist/`, watches for changes to the source files, and runs `lite-server` on port `4200`.
 
 Shut it down manually with `Ctrl-C`.
 
